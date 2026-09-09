@@ -1,7 +1,7 @@
 {
 	"name" : "All Perk Decks Configurable",
 	"description" : "Allows enabling/disabling specific perk decks via lua config.",
-	"author" : "Unknown",
+	"author" : "Dentro",
 	"version" : "3.1",
 	"blt_version" : 2,
 	"color" : "255 165 0",

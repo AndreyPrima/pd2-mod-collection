@@ -1,7 +1,7 @@
 {
 	"name" : "Set 5 All Aced No Frenzy + All Weapon Mods",
 	"description" : "Set 5 all-aced except Frenzy + give 999 of every weapon mod (no duplicates). Use Options > Mod Options > Set 5 + Weapon Mods buttons, or keybinds in Main Menu.",
-	"author" : "Muse",
+	"author" : "Dentro",
 	"version" : "1.1",
 	"blt_version" : 2,
 	"hooks" : [

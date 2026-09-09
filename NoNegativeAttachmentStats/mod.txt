@@ -1,7 +1,7 @@
 {
     "name": "No Negative Attachment Stats + Ammo x5",
     "description": "Flips all negative attachment stats into positive bonuses. Also multiplies total ammo and ammo pickup by 5 for all weapons.",
-    "author": "Me",
+    "author": "Dentro",
     "version": "1.2",
     "blt_version": 2,
     "color": "0.1 0.6 0.1",

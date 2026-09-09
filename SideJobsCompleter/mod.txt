@@ -1,7 +1,7 @@
 {
 	"name" : "Side Jobs Completer",
 	"description" : "Button in Options > Mod Options that completes + claims all side jobs (event, raid, tango, legacy) and safehouse trophies/daily. Backup your save first. Solo/offline recommended.",
-	"author" : "Muse",
+	"author" : "Dentro",
 	"version" : "1.2",
 	"blt_version" : 2,
 	"color" : "0 200 255",

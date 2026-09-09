@@ -1,7 +1,7 @@
 {
 	"name" : "3x Favors Pre-Planning",
 	"description" : "Triples the Pre-Planning favor pool (e.g. 10 -> 30). Money costs unchanged. Must be installed on HOST to take effect; clients should also install it so their UI and validation match the host. Works as host and as client in a modded lobby. Diesel 3.0 / 64-bit.",
-	"author" : "Muse",
+	"author" : "Dentro",
 	"version" : "1.0",
 	"blt_version" : 2,
 	"color" : "0 200 255",
