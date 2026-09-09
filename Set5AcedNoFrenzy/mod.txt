@@ -1,0 +1,37 @@
+{
+	"name" : "Set 5 All Aced No Frenzy + All Weapon Mods",
+	"description" : "Set 5 all-aced except Frenzy + give 999 of every weapon mod (no duplicates). Use Options > Mod Options > Set 5 + Weapon Mods buttons, or keybinds in Main Menu.",
+	"author" : "Muse",
+	"version" : "1.1",
+	"blt_version" : 2,
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/skilltreemanager",
+			"script_path" : "set5.lua"
+		},
+		{
+			"hook_id" : "lib/setups/menusetup",
+			"script_path" : "menu.lua"
+		}
+	],
+	"keybinds" : [
+		{
+			"keybind_id" : "set5_ace_key",
+			"name" : "Ace Set 5 (no Frenzy)",
+			"description" : "Apply all-aced except Frenzy to Skill Set 5",
+			"script_path" : "set5_apply.lua",
+			"run_in_menu" : true,
+			"run_in_game" : false,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "weapons_give_key",
+			"name" : "Give All Weapon Mods x999",
+			"description" : "Give 999 of every weapon attachment, remove duplicates",
+			"script_path" : "weapons_apply.lua",
+			"run_in_menu" : true,
+			"run_in_game" : false,
+			"localized" : false
+		}
+	]
+}
