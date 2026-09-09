@@ -1,0 +1,21 @@
+{
+    "name" : "Selective DLC Unlocker",
+    "description" : "DLC Unlocker. Unlocks all DLCs enabled in the mod's options",
+    "author" : "SilentSeduction (updated by DiegoBellik)",
+    "contact" : "DiegoBellik on unknowncheats.me",
+    "version" : "1.2",
+    "hooks" : [
+        {
+            "hook_id" : "lib/managers/menumanager",
+            "script_path" : "save.lua"
+        },
+        {
+            "hook_id" : "lib/managers/menumanager",
+            "script_path" : "menu.lua"
+        },
+        {
+            "hook_id" : "lib/managers/dlcmanager",
+            "script_path" : "unlock.lua"
+        }
+    ]
+}
